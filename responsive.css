@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+/*Global*/
+.container{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+header ul{
+	margin: 10;
+	padding: 10;
+}
+
+.dark{
+	padding: 20px;
+	background: #1aff1a;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+/*header**/
+h1{
+	font-family: "Brush Script MT", Brush Script MT, serif;
+	font-size: 65px;
+	font-style: italic;
+	font-weight: normal;
+	color: white;
+}
+h3{
+	font-family: "Courier New",Courier, serif;
+	font-size: 65px;
+	font-style: italic;
+	font-weight: normal;
+	color: white;
+}
+h4{
+	font-family: "Monaco", Monaco, serif;
+	font-size: 45px;
+	font-style: italic;
+	font-weight: normal;
+	color: white;
+}
+
+
+header{
+	font-size: 25px;
+	color:# white;
+	padding-top: 0px;
+	min-height: 100%;
+	width: 100%:;
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float: left;
+}
+header #branding h1{
+	margin: 10;
+}
+header nav{
+	float: right;
+	margin-top: 25px;
+}
+header .highlight, header .current a{
+	color: white ;
+	font-weight: bold;
+}
+header a:hover{
+	color: white;
+	font-weight: bold;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
